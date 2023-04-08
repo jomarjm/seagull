@@ -1,3 +1,7 @@
+body {
+    background-color: blanchedalmond;
+}
+
 #message-container, #seagull-container {
     text-align: center;
     margin: auto;
@@ -9,4 +13,9 @@
     opacity: 0;
     margin: auto;
     transition: 3.75s;
+}
+
+#message {
+    font-size: 32px;
+    font-family: sans-serif;
 }
