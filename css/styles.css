@@ -2,6 +2,14 @@ body {
     background-color: blanchedalmond;
 }
 
+<<<<<<< HEAD
+=======
+#message {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+>>>>>>> gh-pages
 #message-container, #seagull-container {
     text-align: center;
     margin: auto;
