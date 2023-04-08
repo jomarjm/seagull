@@ -19,3 +19,7 @@ body {
     font-size: 32px;
     font-family: sans-serif;
 }
+
+#seagull-link {
+    display: none;
+}

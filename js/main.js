@@ -27,6 +27,18 @@ let fadeInSeagull = () => {
     document.getElementById("seagull").style.opacity = 1;
 }
 
+
+// change placeholder name
+let changeName = () => {
+    let userInput = document.getElementById("name-field").value;
+    let name = document.getElementById("message").innerHTML = userInput;
+    setTimeout(generateLink, 500);
+}
+
+let generateLink = () => {
+    document.getElementById("seagull-link").style.display = "block";
+}
+
 /*
 
 // For fade in picture
