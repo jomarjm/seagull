@@ -1,0 +1,11 @@
+#message-container, #seagull-container {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+
+#seagull {
+    opacity: 0;
+    margin: auto;
+    transition: 2s;
+}
