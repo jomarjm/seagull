@@ -1,3 +1,12 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#message {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
 #message-container, #seagull-container {
     text-align: center;
     margin: auto;
