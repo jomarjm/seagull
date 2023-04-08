@@ -1,37 +1,13 @@
-// For typewriter function
-let message = "Test Name...";
 
-let i = 0;
-let speed = 100;
 
-let typewriter = () => {
-    if (i < message.length) {
-        document.getElementById("message").innerHTML += message.charAt(i);
-        i++;
-        setTimeout(typewriter, speed);
-        console.log(i);
-    } else {
-        setTimeout(fadeInSeagull, 1600);
-    }
-};
-
-// Delays typewriter function on load
-let typewriterDelay = () => {
-    setTimeout(typewriter, 2000);
-};
-
-// Executes typewriter functions on load
-window.addEventListener('load', typewriterDelay);
-
-let fadeInSeagull = () => {
-    document.getElementById("seagull").style.opacity = 1;
-}
-
+// for changing placeholder name
+let name = "";
 
 // change placeholder name
 let changeName = () => {
     let userInput = document.getElementById("name-field").value;
-    let name = document.getElementById("message").innerHTML = userInput;
+    // let name = document.getElementById("message").innerHTML = userInput;
+    let inputName = userInput;
     setTimeout(generateLink, 500);
 }
 
